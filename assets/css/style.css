@@ -39,7 +39,24 @@ body {
   }
   
 
+/* TODO: Add properties to the cards to achieve the required look */
+.mywork {
+    border-style: solid;
+    border-width: 1px;
+    height: 75; 
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px; 
+    box-shadow: 10px 5px 5px rgb(9, 8, 8);
+    rotate: 0;
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    width: 150px; /* Set a small width */
+  }
+
+  .myworkhover { rotate: 20;}
   
+
   article {
     border-bottom: 1px solid #13293d;
   }
