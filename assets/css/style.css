@@ -54,10 +54,12 @@ image {
   
 
   .image { 
-    height: 200; width: 200;  
+    height: 200px; width: 200px;  
+    display: flex; 
+    gap: 10px; 
   }
   
-  .image:hover img{height: 300; width: 300;}
+  .image img:hover{height: 300px; width: 300px; }
 
   article p {
     margin: 2% 0;
