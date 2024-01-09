@@ -14,12 +14,26 @@ body {
   }
   
   h1 {
-    font-size: 200%;
+    font-size: 250%;
+    color:#fff
   }
   
+  
+  /* Make the image to responsive */
+image {
+    width: 100px;
+    
+ }
+  
+ .image:hover img{
+    width:200px;
+   
+}
+
   h2 {
     margin: 2% 0;
-    font-size: 250%;
+    font-size: 200%;
+    color:#13293d
   }
   
   nav ul {
@@ -29,7 +43,7 @@ body {
   }
   
   nav a {
-    color: #b9c6ae;
+    color: #b7ef88;
     font-weight: bold;
     text-decoration: none;
   }
@@ -39,31 +53,17 @@ body {
   }
   
 
-/* TODO: Add properties to the cards to achieve the required look */
-.mywork {
-    border-style: solid;
-    border-width: 1px;
-    height: 75; 
-    padding: 10px;
-    margin: 20px;
-    border-radius: 25px; 
-    box-shadow: 10px 5px 5px rgb(9, 8, 8);
-    rotate: 0;
-    border: 1px solid #ddd; /* Gray border */
-    border-radius: 4px;  /* Rounded border */
-    width: 150px; /* Set a small width */
-  }
-
-  .myworkhover { rotate: 20;}
-  
-
-  article {
-    border-bottom: 1px solid #13293d;
+  .image { 
+    height: 200; width: 200;  
   }
   
+  .image:hover img{height: 300; width: 300;}
+
   article p {
     margin: 2% 0;
     font-size: 110%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
   }
   
   article ul {
@@ -72,12 +72,8 @@ body {
     list-style: circle;
   }
   
+   /* resize as needed */ 
 
-  
-  a[href$='.css'] { 
-    cursor: copy 
-  }
-  
   @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
